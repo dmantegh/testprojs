@@ -1,0 +1,305 @@
+=====================================================
+PROGRESS stack trace as of Thu Aug 29 11:36:55 2013
+=====================================================
+Startup parameters:
+-pf C:\Progress\OpenEdge\startup.pf,-cpinternal ISO8859-1,-cpstream ISO8859-1,-cpcoll Basic,-cpcase Basic,-d dmy,-numsep 44,-numdec 46,(end .pf),-wy,-debugalert,-inp 16000,-tok 4000,-rereadnolock,-s 200,-mmax 65534,-T C:\OpenEdge\WRK,-p C:\eclipse\plugins\com.openedge.pdt.project_10.2.1.07\runtime\_server.p
+
+Exception code: E0434F4D 
+Fault address:  777D4B32 01:00013B32 C:\Windows\SYSTEM32\KERNELBASE.dll
+
+Registers:
+EAX:0018D438
+EBX:E0434F4D
+ECX:00000001
+EDX:00000000
+ESI:0018D4C8
+EDI:00538EC0
+CS:EIP:0023:777D4B32
+SS:ESP:002B:0018D438  EBP:0018D490
+DS:002B  ES:002B  FS:0053  GS:002B
+Flags:00200212
+
+
+Debugging dll C:\Windows\SYSTEM32\DBGHELP.DLL
+Symbol Path:
+ C:\Progress\OpenEdge\bin;C:\Progress\OpenEdge\pdbfiles
+
+
+Call Stack:
+Address   Frame
+777D4B32  00000000  RaiseException+49
+69F81EC4  00000000  CorExitProcess+518E
+69F9C6D0  00000000  CorExeMain+6523
+68BC2F3E  00000000  0003:00111F3E C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Drawing\7e4447d26cd9083018bd28ddd60a0248\System.Drawing.ni.dll
+680537BF  00000000  0003:000147BF C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+68780FF1  00000000  0003:00741FF1 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+68773232  00000000  0003:00734232 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+68771243  00000000  0003:00732243 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+6809341B  00000000  0003:0005441B C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+68088CC6  00000000  0003:00049CC6 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+6809210A  00000000  0003:0005310A C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+680920C0  00000000  0003:000530C0 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+6876E9BD  00000000  0003:0072F9BD C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+68088A00  00000000  0003:00049A00 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+68088981  00000000  0003:00049981 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+685BADC7  00000000  0003:0057BDC7 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+75BC77D8  00000000  gapfnScSendMessage+4E0
+75BC78CB  00000000  gapfnScSendMessage+5D3
+75BC7B6F  00000000  PeekMessageW+1EC
+75BC7C44  00000000  PeekMessageW+2C1
+77A72C92  00000000  KiUserCallbackDispatcher+2E
+68086E2A  00000000  0003:00047E2A C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+680870AF  00000000  0003:000480AF C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+68086ED4  00000000  0003:00047ED4 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+680867D3  00000000  0003:000477D3 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+6809535F  00000000  0003:0005635F C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+68086136  00000000  0003:00047136 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+687B169D  00000000  0003:0077269D C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+687AF1F1  00000000  0003:007701F1 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+687B36E6  00000000  0003:007746E6 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+680796FA  00000000  0003:0003A6FA C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+68D37022  00000000  0003:00028022 C:\Windows\assembly\NativeImages_v2.0.50727_32\System\1b46657236c1f942f9dbaf6aac73bb49\System.ni.dll
+68D37022  00000000  0003:00028022 C:\Windows\assembly\NativeImages_v2.0.50727_32\System\1b46657236c1f942f9dbaf6aac73bb49\System.ni.dll
+69EB1B5C  00000000  0001:00000B5C C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69EC8F8A  00000000  0001:00017F8A C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69ED560C  00000000  0001:0002460C C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69ED563F  00000000  0001:0002463F C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69ED565D  00000000  0001:0002465D C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69FE7B3E  00000000  GetCLRFunction+CC09
+69FE7CA2  00000000  GetCLRFunction+CD6D
+695C55F8  00000000  0003:000765F8 C:\Windows\assembly\NativeImages_v2.0.50727_32\mscorlib\d1ce70bf6cbab6ab838cbd8b50e902c1\mscorlib.ni.dll
+695C53FF  00000000  0003:000763FF C:\Windows\assembly\NativeImages_v2.0.50727_32\mscorlib\d1ce70bf6cbab6ab838cbd8b50e902c1\mscorlib.ni.dll
+695C6835  00000000  0003:00077835 C:\Windows\assembly\NativeImages_v2.0.50727_32\mscorlib\d1ce70bf6cbab6ab838cbd8b50e902c1\mscorlib.ni.dll
+68099984  00000000  0003:0005A984 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+680998C0  00000000  0003:0005A8C0 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+688EF8C3  00000000  0003:008B08C3 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+68099633  00000000  0003:0005A633 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+68094EEC  00000000  0003:00055EEC C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+685B3F00  00000000  0003:00574F00 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+685B3E97  00000000  0003:00574E97 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+69EB1B5C  00000000  0001:00000B5C C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69EC8F8A  00000000  0001:00017F8A C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69ED560C  00000000  0001:0002460C C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69ED563F  00000000  0001:0002463F C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69ED565D  00000000  0001:0002465D C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69FE7B3E  00000000  GetCLRFunction+CC09
+69FE7CA2  00000000  GetCLRFunction+CD6D
+695C55F8  00000000  0003:000765F8 C:\Windows\assembly\NativeImages_v2.0.50727_32\mscorlib\d1ce70bf6cbab6ab838cbd8b50e902c1\mscorlib.ni.dll
+695C53FF  00000000  0003:000763FF C:\Windows\assembly\NativeImages_v2.0.50727_32\mscorlib\d1ce70bf6cbab6ab838cbd8b50e902c1\mscorlib.ni.dll
+695C6835  00000000  0003:00077835 C:\Windows\assembly\NativeImages_v2.0.50727_32\mscorlib\d1ce70bf6cbab6ab838cbd8b50e902c1\mscorlib.ni.dll
+68099984  00000000  0003:0005A984 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+68099899  00000000  0003:0005A899 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+695E5951  00000000  0003:00096951 C:\Windows\assembly\NativeImages_v2.0.50727_32\mscorlib\d1ce70bf6cbab6ab838cbd8b50e902c1\mscorlib.ni.dll
+69EB1B5C  00000000  0001:00000B5C C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69EC8F8A  00000000  0001:00017F8A C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69ED560C  00000000  0001:0002460C C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69ED563F  00000000  0001:0002463F C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69ED565D  00000000  0001:0002465D C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69FEE8DE  00000000  GetCLRFunction+139A9
+69FEEA36  00000000  GetCLRFunction+13B01
+695E5847  00000000  0003:00096847 C:\Windows\assembly\NativeImages_v2.0.50727_32\mscorlib\d1ce70bf6cbab6ab838cbd8b50e902c1\mscorlib.ni.dll
+695D0475  00000000  0003:00081475 C:\Windows\assembly\NativeImages_v2.0.50727_32\mscorlib\d1ce70bf6cbab6ab838cbd8b50e902c1\mscorlib.ni.dll
+680997E9  00000000  0003:0005A7E9 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+68099633  00000000  0003:0005A633 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+68088B3F  00000000  0003:00049B3F C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+6809210A  00000000  0003:0005310A C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+680920C0  00000000  0003:000530C0 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+68091D80  00000000  0003:00052D80 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+68088A00  00000000  0003:00049A00 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+68088981  00000000  0003:00049981 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+685BADC7  00000000  0003:0057BDC7 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+75BC77D8  00000000  gapfnScSendMessage+4E0
+75BC78CB  00000000  gapfnScSendMessage+5D3
+75BC899D  00000000  GetKeyboardLayout+93C
+75BC8A66  00000000  DispatchMessageW+10
+68098F8E  00000000  0003:00059F8E C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+68098F8E  00000000  0003:00059F8E C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+68099108  00000000  0003:0005A108 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+68098BF7  00000000  0003:00059BF7 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+68098BF7  00000000  0003:00059BF7 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+68098A41  00000000  0003:00059A41 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+685AE8E2  00000000  0003:0056F8E2 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+69EB1B5C  00000000  0001:00000B5C C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69EC8F8A  00000000  0001:00017F8A C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69ED560C  00000000  0001:0002460C C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69ED563F  00000000  0001:0002463F C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69ED565D  00000000  0001:0002465D C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69FE7B3E  00000000  GetCLRFunction+CC09
+69FE7CA2  00000000  GetCLRFunction+CD6D
+695C55F8  00000000  0003:000765F8 C:\Windows\assembly\NativeImages_v2.0.50727_32\mscorlib\d1ce70bf6cbab6ab838cbd8b50e902c1\mscorlib.ni.dll
+695C53FF  00000000  0003:000763FF C:\Windows\assembly\NativeImages_v2.0.50727_32\mscorlib\d1ce70bf6cbab6ab838cbd8b50e902c1\mscorlib.ni.dll
+695C528E  00000000  0003:0007628E C:\Windows\assembly\NativeImages_v2.0.50727_32\mscorlib\d1ce70bf6cbab6ab838cbd8b50e902c1\mscorlib.ni.dll
+10537233  00000000  Progress::ClrBridge::IProFromClr::operator=+123
+1014EAD0  00000000  DllStartup+C4A70
+102B80AF  00000000  pam_get_item+89C6F
+69EB43A9  00000000  0001:000033A9 C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69EBFE7A  00000000  0001:0000EE7A C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69EBFE7A  00000000  0001:0000EE7A C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69EC5FE3  00000000  0001:00014FE3 C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+77A81FBD  00000000  RtlFreeHeap+7B
+69EB487E  00000000  0001:0000387E C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69EB48B9  00000000  0001:000038B9 C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+104FC121  00000000  dbut_stnclr+11
+104FBCBB  00000000  wwProxInterfaceReadIcon+3E4CB
+102B6733  00000000  pam_get_item+882F3
+102B6BF6  00000000  pam_get_item+887B6
+102B8B83  00000000  pam_get_item+8A743
+
+
+** ABL Stack Trace **
+
+--> C:/eclipse/plugins/com.openedge.pdt.ve_10.2.1.07/runtime/_idestartclr.p (C:\eclipse\plugins\com.openedge.pdt.ve_10.2.1.07\runtime\_idestartclr.p) at line 35
+    StartVisualDesigner C:/eclipse/plugins/com.openedge.pdt.ve_10.2.1.07/runtime/_ideveruntime.p (C:\eclipse\plugins\com.openedge.pdt.ve_10.2.1.07\runtime\_ideveruntime.p) at line 52
+    executeCmd C:\eclipse\plugins\com.openedge.pdt.project_10.2.1.07\runtime\_server.p (C:\eclipse\plugins\com.openedge.pdt.project_10.2.1.07\runtime\_server.p) at line 479
+    ReceiveCommand C:\eclipse\plugins\com.openedge.pdt.project_10.2.1.07\runtime\_server.p (C:\eclipse\plugins\com.openedge.pdt.project_10.2.1.07\runtime\_server.p) at line 398
+    C:\eclipse\plugins\com.openedge.pdt.project_10.2.1.07\runtime\_server.p (C:\eclipse\plugins\com.openedge.pdt.project_10.2.1.07\runtime\_server.p) at line 141
+
+** Persistent procedures/Classes **
+
+Handle  File Name
+001008  C:\eclipse\plugins\com.openedge.pdt.project_10.2.1.07\runtime\_serverDEFAULT.p
+001007  C:\eclipse\plugins\com.openedge.pdt.ve_10.2.1.07\runtime\_ideveruntime.p
+001006  C:\eclipse\plugins\com.openedge.pdt.text_10.2.1.07\runtime\_idetxtruntime.p
+001005  C:\eclipse\plugins\com.openedge.pdt.project_10.2.1.07\runtime\_idewsruntime.p
+001004  C:\eclipse\plugins\com.openedge.pdt.project_10.2.1.07\runtime\_idedbruntime.p
+001003  C:\eclipse\plugins\com.openedge.pdt.oestudio_10.2.1.07\runtime\_abruntime.p
+001000  C:\eclipse\plugins\com.openedge.pdt.project_10.2.1.07\runtime\_oeidecontext.p
+
+//=====================================================
+PROGRESS stack trace as of Thu Aug 29 11:37:02 2013
+//=====================================================
+Exception code: E0434F4D 
+Fault address:  777D4B32 01:00013B32 C:\Windows\SYSTEM32\KERNELBASE.dll
+
+Registers:
+EAX:0018D438
+EBX:E0434F4D
+ECX:00000001
+EDX:00000000
+ESI:0018D4C8
+EDI:00538EC0
+CS:EIP:0023:777D4B32
+SS:ESP:002B:0018D438  EBP:0018D490
+DS:002B  ES:002B  FS:0053  GS:002B
+Flags:00200212
+
+Call Stack:
+Address   Frame
+777D4B32  0018D490  RaiseException+49
+69F81EC4  0018D4F0  CorExitProcess+518E
+69F9C6D0  0018D5B4  CorExeMain+6523
+68BC2F3E  0018D5C4  0003:00111F3E C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Drawing\7e4447d26cd9083018bd28ddd60a0248\System.Drawing.ni.dll
+680537BF  0018D5CC  0003:000147BF C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+68780FF1  0018D600  0003:00741FF1 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+68773232  0018D6E8  0003:00734232 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+68771243  0018D6F4  0003:00732243 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+6809341B  0018D730  0003:0005441B C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+68088CC6  0018D788  0003:00049CC6 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+6809210A  0018D794  0003:0005310A C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+680920C0  0018D79C  0003:000530C0 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+6876E9BD  0018D7F0  0003:0072F9BD C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+68088A00  0018D7F8  0003:00049A00 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+68088981  0018D80C  0003:00049981 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+685BADC7  0018D870  0003:0057BDC7 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+75BC77D8  0018D89C  gapfnScSendMessage+4E0
+75BC78CB  0018D918  gapfnScSendMessage+5D3
+75BC7B6F  0018D97C  PeekMessageW+1EC
+75BC7C44  0018D9B8  PeekMessageW+2C1
+77A72C92  0018DA0C  KiUserCallbackDispatcher+2E
+68086E2A  0018DA5C  0003:00047E2A C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+680870AF  0018DA98  0003:000480AF C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+68086ED4  0018DAB0  0003:00047ED4 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+680867D3  0018DAD4  0003:000477D3 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+6809535F  0018DAE4  0003:0005635F C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+68086136  0018DB50  0003:00047136 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+687B169D  0018DB58  0003:0077269D C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+687AF1F1  0018DBA0  0003:007701F1 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+687B36E6  0018DBB4  0003:007746E6 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+680796FA  0018DC04  0003:0003A6FA C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+68D37022  0018DC44  0003:00028022 C:\Windows\assembly\NativeImages_v2.0.50727_32\System\1b46657236c1f942f9dbaf6aac73bb49\System.ni.dll
+68D37022  0018DC60  0003:00028022 C:\Windows\assembly\NativeImages_v2.0.50727_32\System\1b46657236c1f942f9dbaf6aac73bb49\System.ni.dll
+69EB1B5C  0018DC70  0001:00000B5C C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69EC8F8A  0018DCF0  0001:00017F8A C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69ED560C  0018DE28  0001:0002460C C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69ED563F  0018DE44  0001:0002463F C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69ED565D  0018DE5C  0001:0002465D C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69FE7B3E  0018E03C  GetCLRFunction+CC09
+69FE7CA2  0018E0FC  GetCLRFunction+CD6D
+695C55F8  0018E14C  0003:000765F8 C:\Windows\assembly\NativeImages_v2.0.50727_32\mscorlib\d1ce70bf6cbab6ab838cbd8b50e902c1\mscorlib.ni.dll
+695C53FF  0018E184  0003:000763FF C:\Windows\assembly\NativeImages_v2.0.50727_32\mscorlib\d1ce70bf6cbab6ab838cbd8b50e902c1\mscorlib.ni.dll
+695C6835  0018E1AC  0003:00077835 C:\Windows\assembly\NativeImages_v2.0.50727_32\mscorlib\d1ce70bf6cbab6ab838cbd8b50e902c1\mscorlib.ni.dll
+68099984  0018E1D0  0003:0005A984 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+680998C0  0018E1FC  0003:0005A8C0 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+688EF8C3  0018E214  0003:008B08C3 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+68099633  0018E24C  0003:0005A633 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+68094EEC  0018E2E4  0003:00055EEC C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+685B3F00  0018E320  0003:00574F00 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+685B3E97  0018E360  0003:00574E97 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+69EB1B5C  0018E370  0001:00000B5C C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69EC8F8A  0018E3F0  0001:00017F8A C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69ED560C  0018E528  0001:0002460C C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69ED563F  0018E544  0001:0002463F C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69ED565D  0018E55C  0001:0002465D C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69FE7B3E  0018E740  GetCLRFunction+CC09
+69FE7CA2  0018E800  GetCLRFunction+CD6D
+695C55F8  0018E850  0003:000765F8 C:\Windows\assembly\NativeImages_v2.0.50727_32\mscorlib\d1ce70bf6cbab6ab838cbd8b50e902c1\mscorlib.ni.dll
+695C53FF  0018E888  0003:000763FF C:\Windows\assembly\NativeImages_v2.0.50727_32\mscorlib\d1ce70bf6cbab6ab838cbd8b50e902c1\mscorlib.ni.dll
+695C6835  0018E8B0  0003:00077835 C:\Windows\assembly\NativeImages_v2.0.50727_32\mscorlib\d1ce70bf6cbab6ab838cbd8b50e902c1\mscorlib.ni.dll
+68099984  0018E8D4  0003:0005A984 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+68099899  0018E900  0003:0005A899 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+695E5951  0018E910  0003:00096951 C:\Windows\assembly\NativeImages_v2.0.50727_32\mscorlib\d1ce70bf6cbab6ab838cbd8b50e902c1\mscorlib.ni.dll
+69EB1B5C  0018E920  0001:00000B5C C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69EC8F8A  0018E9A0  0001:00017F8A C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69ED560C  0018EAE0  0001:0002460C C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69ED563F  0018EAFC  0001:0002463F C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69ED565D  0018EB14  0001:0002465D C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69FEE8DE  0018ECE0  GetCLRFunction+139A9
+69FEEA36  0018ED90  GetCLRFunction+13B01
+695E5847  0018EDAC  0003:00096847 C:\Windows\assembly\NativeImages_v2.0.50727_32\mscorlib\d1ce70bf6cbab6ab838cbd8b50e902c1\mscorlib.ni.dll
+695D0475  0018EDC4  0003:00081475 C:\Windows\assembly\NativeImages_v2.0.50727_32\mscorlib\d1ce70bf6cbab6ab838cbd8b50e902c1\mscorlib.ni.dll
+680997E9  0018EDE0  0003:0005A7E9 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+68099633  0018EE18  0003:0005A633 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+68088B3F  0018EE70  0003:00049B3F C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+6809210A  0018EE7C  0003:0005310A C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+680920C0  0018EE84  0003:000530C0 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+68091D80  0018EE98  0003:00052D80 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+68088A00  0018EEA0  0003:00049A00 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+68088981  0018EEB4  0003:00049981 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+685BADC7  0018EF18  0003:0057BDC7 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+75BC77D8  0018EF44  gapfnScSendMessage+4E0
+75BC78CB  0018EFC0  gapfnScSendMessage+5D3
+75BC899D  0018F034  GetKeyboardLayout+93C
+75BC8A66  0018F060  DispatchMessageW+10
+68098F8E  0018F080  0003:00059F8E C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+68098F8E  0018F098  0003:00059F8E C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+68099108  0018F0A4  0003:0005A108 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+68098BF7  0018F114  0003:00059BF7 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+68098BF7  0018F16C  0003:00059BF7 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+68098A41  0018F19C  0003:00059A41 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+685AE8E2  0018F1B0  0003:0056F8E2 C:\Windows\assembly\NativeImages_v2.0.50727_32\System.Windows.Forms\6b49661877ca78101ebc697b9a6a95fd\System.Windows.Forms.ni.dll
+69EB1B5C  0018F1C0  0001:00000B5C C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69EC8F8A  0018F240  0001:00017F8A C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69ED560C  0018F378  0001:0002460C C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69ED563F  0018F394  0001:0002463F C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69ED565D  0018F3AC  0001:0002465D C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69FE7B3E  0018F57C  GetCLRFunction+CC09
+69FE7CA2  0018F63C  GetCLRFunction+CD6D
+695C55F8  0018F68C  0003:000765F8 C:\Windows\assembly\NativeImages_v2.0.50727_32\mscorlib\d1ce70bf6cbab6ab838cbd8b50e902c1\mscorlib.ni.dll
+695C53FF  0018F6C4  0003:000763FF C:\Windows\assembly\NativeImages_v2.0.50727_32\mscorlib\d1ce70bf6cbab6ab838cbd8b50e902c1\mscorlib.ni.dll
+695C528E  0018F780  0003:0007628E C:\Windows\assembly\NativeImages_v2.0.50727_32\mscorlib\d1ce70bf6cbab6ab838cbd8b50e902c1\mscorlib.ni.dll
+10537233  0018F7A0  Progress::ClrBridge::IProFromClr::operator=+123
+1014EAD0  0018F7C8  DllStartup+C4A70
+102B80AF  0018F844  pam_get_item+89C6F
+69EB43A9  0018F848  0001:000033A9 C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69EBFE7A  0018F86C  0001:0000EE7A C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69EBFE7A  0018F870  0001:0000EE7A C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69EC5FE3  0018F8A8  0001:00014FE3 C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+77A81FBD  0018F8C4  RtlFreeHeap+7B
+69EB487E  0018F8FC  0001:0000387E C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+69EB48B9  0018F90C  0001:000038B9 C:\Windows\Microsoft.NET\Framework\v2.0.50727\mscorwks.dll
+104FC121  0018F91C  dbut_stnclr+11
+104FBCBB  0018F934  wwProxInterfaceReadIcon+3E4CB
+102B6733  0018F94C  pam_get_item+882F3
+102B6BF6  0018F958  pam_get_item+887B6
+102B8B83  0018F994  pam_get_item+8A743
+
